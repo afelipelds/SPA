@@ -1,0 +1,27 @@
+{
+  "name": "spa_vanilla",
+  "version": "1.0.0",
+  "description": "SPA(single page application)",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
+  },
+  "keywords": [
+    "spa",
+    "single",
+    "page",
+    "application",
+    "javascript"
+  ],
+  "author": "Andrés Eslava <afelipelds.ez@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "babel-loader": "^8.0.6",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
