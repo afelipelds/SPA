@@ -15,13 +15,12 @@ const router = async () => {
     const header = null || document.getElementById('header')
     const content = null || document.getElementById('content')
 
-    header.innerHTML = await Header()
+    header.innerHTML = Header()
     let hash = getHash()
     let route = await resolveRoutes(hash)
-    debugger
     let render = routes[route] ? routes[route] : Error404
 
-    content.innerHTML = render()
+    content.innerHTML = await render()
 }
 
 export default router;
