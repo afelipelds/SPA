@@ -74,5 +74,4 @@ yarn-error.log
 
 # Build
 dist/
-public/
 package-lock.json

@@ -8,6 +8,11 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.section {
+  display: flex;
+  justify-content: center;
+}
+
 .Header-main {
   display: flex;
   justify-content: space-between;
@@ -31,6 +36,8 @@ body {
   grid-gap: 1.5rem;
   grid-row-gap: 1.5em;
   display: grid;
+  justify-content: center;
+  align-items: center;
 }
 
 .Characters-inner {
